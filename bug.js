@@ -9,9 +9,10 @@ function buggy_if(do_if, do_elseif) {
 }
 
 function buggy_elseif(do_if, do_elseif) {
+  /* istanbul ignore else */
   if (do_if) {
     console.log("Hit if branch");
-  } else /* istanbul ignore else|if */ if(do_elseif) {
+  } else if(do_elseif) {
     console.log("Hit else if branch");
   } else {
     console.log("Hit final else");
