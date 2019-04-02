@@ -1,0 +1,12 @@
+{
+  "name": "nyc-elseif-bug",
+  "version": "0.0.1",
+  "repository": "https://github.com/arbrock/nyc-elseif-bug",
+  "license": "0BSD",
+  "devDependencies": {
+    "nyc": "^13.3.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
